@@ -26,6 +26,7 @@ button {
   background: #7159c1;
   color: #fff;
   border: 0;
+  border-radius: 4px;
   padding: 10px 15px;
   cursor: pointer;
   margin-top: 15px;
@@ -36,4 +37,10 @@ button {
 div li button {
   margin: 0 15px;
   background: #ca4949;
+}
+
+div li {
+  width: 12%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
